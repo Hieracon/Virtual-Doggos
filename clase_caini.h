@@ -28,7 +28,7 @@ public:
 };
 
 class CaineFaraPete:public Caine{
-public:
+    
 };
 
 #endif // CLASE_CAINI_H_INCLUDED
