@@ -1,6 +1,6 @@
 #include "clase_caini.h"
 
-void Caine::get_details() {
+void CaineCuPete::get_details() {
     cout << "Name of the dog is: ";
     cin >> name;
     cout << "It's hight is: ";
@@ -13,7 +13,7 @@ void Caine::get_details() {
     cin >> color;
 }
 
-void Caine::display(){
+void CaineCuPete::display(){
     cout << "Dog's name is: " << name << endl;
     cout << "It's hight is: " << hight << endl;
     cout << "It's weight is: " <<weight << endl;
@@ -27,4 +27,24 @@ void CaineCuPete::spots(){
     cout << "It has " << nr_spots << " spots" << endl;
 }
 
+void CaineFaraPete::get_details() {
+    cout << "Name of the dog is: ";
+    cin >> name;
+    cout << "It's hight is: ";
+    cin >> hight;
+    cout << "It's weight in kg is: ";
+    cin >> weight;
+    cout << "It's age is: ";
+    cin >> age;
+    cout << "It's color is: ";
+    cin >> color;
+}
+
+void CaineFaraPete::display(){
+    cout << "Dog's name is: " << name << endl;
+    cout << "It's hight is: " << hight << endl;
+    cout << "It's weight is: " <<weight << endl;
+    cout << "It's age is: " << age << endl;
+    cout << "It's color is: " << color << endl;
+}
 

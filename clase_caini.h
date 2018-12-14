@@ -7,16 +7,20 @@
 using namespace std;
 
 class Caine{
-private:
+public:
     string name;
     int hight;
     int weight;
     int age;
     string color;
 
-public:
-    virtual void get_details();
-    virtual void display();
+
+    virtual void get_details(){
+        cout << "This won't be called";
+    }
+    virtual void display(){
+        cout << "This won't be called";
+    }
 };
 
 class CaineCuPete:public Caine{
@@ -25,10 +29,14 @@ private:
 
 public:
     void spots();
+    void get_details();
+    void display();
 };
 
 class CaineFaraPete:public Caine{
-    
+public:
+    void get_details();
+    void display();
 };
 
 #endif // CLASE_CAINI_H_INCLUDED
